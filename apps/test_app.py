@@ -7,7 +7,7 @@ import datetime
 
 def app():
   # ---- MAINPAGE ----
-  st.title('Sample Report Input Form')
+  st.title('Josh is the Best')
   st.markdown("##")
 
   # ---- SIDEBAR ---
