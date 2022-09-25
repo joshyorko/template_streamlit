@@ -5,12 +5,6 @@ from scripts.utils import get_files,to_excel
 
 import datetime
 
-
-
-
-
-
-
 def app():
   # ---- MAINPAGE ----
   st.title('Class Room Occupancy Report')
