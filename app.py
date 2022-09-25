@@ -1,6 +1,6 @@
 import streamlit as st
 from scripts.multiapp import MultiApp
-from apps import test_app 
+from apps import test_app, test_app2
 
 app = MultiApp()
 
@@ -35,7 +35,7 @@ def check_password():
 #st.sidebar.image('')
 
 app.add_app("Test App",test_app.app)
-
+app.add_app("Test App 2",test_app2.app)
 # The main app
 
 if check_password():
