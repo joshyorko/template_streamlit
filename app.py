@@ -1,6 +1,7 @@
 import streamlit as st
-from scripts.multiapp import MultiApp
+
 from apps import test_app, test_app2
+from scripts.multiapp import MultiApp
 
 app = MultiApp()
 
