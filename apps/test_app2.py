@@ -1,9 +1,11 @@
-import streamlit as st
 import datetime
+
+import streamlit as st
+
 
 def app():
   # ---- MAINPAGE ----
-  st.title('Sample Report Input Form 2')
+  st.title('Test App 2 Dashboard')
   st.markdown("##")
 
   # ---- SIDEBAR ---
