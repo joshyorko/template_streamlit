@@ -1,9 +1,0 @@
-name: dashboard
-channels:
-  - defaults
-dependencies:
-  - pandas
-  - python
-  - streamlit
-  - xlsxwriter
-  - pivottablejs

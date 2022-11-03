@@ -25,7 +25,7 @@ streamlit run app.py
 
 ## Demo
 ### Password = 1234
-Template Dashboard: https://template-dash-board.streamlit.app/
+![Demo]
 
 ## Screenshot
 
