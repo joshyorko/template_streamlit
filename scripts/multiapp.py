@@ -47,7 +47,7 @@ class MultiApp:
 
 
         
-        app = st.selectbox(
+        app = st.sidebar.selectbox(
             'Select Application',
             self.apps,
             format_func=lambda app: app['title'])

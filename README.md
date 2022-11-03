@@ -24,11 +24,12 @@ streamlit run app.py
 ```
 
 ## Demo
-Template Dashboard: placeholder
+### Password = 1234
+Template Dashboard: https://template-dash-board.streamlit.app/
 
 ## Screenshot
 
-![Dashboar Screenshot]()
+![Dashboard Screenshot](images/appscreenshot.png))
 
 
 ## Author
