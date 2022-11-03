@@ -1,6 +1,6 @@
 import streamlit as st
 
-from apps import test_app, test_app2
+from apps import test_app, test_app2, test_app3
 from scripts.multiapp import MultiApp
 
 app = MultiApp()
@@ -34,9 +34,10 @@ def check_password():
 
 # Add all your application here
 #st.sidebar.image('')
-
+st.set_page_config(layout='wide')
 app.add_app("Test App",test_app.app)
 app.add_app("Test App 2",test_app2.app)
+app.add_app("Test App 3",test_app3.app)
 # The main app
 
 if check_password():
